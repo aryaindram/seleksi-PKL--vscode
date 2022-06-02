@@ -1,0 +1,575 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+nav {
+    padding: 20px 40px 0px 50px;
+    box-sizing: border-box;
+    width: auto;
+    overflow:hidden ;
+}
+
+.pencarian {
+    position: absolute;
+    right: 227px;
+    top: 5px;
+}
+
+.menu {
+    color: #656464;
+    padding-left: 170px;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    bottom: 33px;
+}
+
+.menu li {
+    display: flex;
+    justify-content: left;
+    padding-right: 32px;
+}
+
+menu li:last-child {
+    padding-right: 0;
+}
+
+.logo {
+    position: relative;
+    top: 2px;
+    width: 120px;
+    display: flex;
+}
+
+#form {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    left: 900px;
+}
+
+.login {
+    color: white;
+    position: relative;
+    bottom: 2px;
+    margin-left: 20px;
+    background-color:#2C69FF;
+    padding: 5px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10pxpx;
+    -o-border-radius: 10px;
+    border: none;
+}
+
+#input {
+    width: 100px;
+    padding-left: 20px;
+}
+
+#box {
+    width: auto;
+    height: 450px;
+    background-image: linear-gradient(white, lightblue );
+}
+
+.img1 img{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 600px;
+}
+
+.base {
+    padding:100px;
+}
+
+.netbok {
+    position: relative;
+    background-color: #a5c4ec;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    left: 65px;
+    color:#217BF4;
+}
+
+.iamge h1{
+    position: relative;
+    left: 65px;
+}
+
+.iamge p{
+    position: relative;
+    left: 65px;
+    size: 50px;
+}
+
+.about {
+    position: relative;
+    background-color: #4e95f1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    left: 65px;
+    color: white;
+}
+
+.invite {
+    position: relative;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    left: 65px;
+    color: #4e95f1;
+}
+
+.button {
+    position: relative;
+    padding: 20px;
+    right: 25px;
+}
+
+#aboutus {
+    position: relative;
+    width: auto;
+}
+
+#aboutus .img2{
+    position: relative;
+    float: right;
+    right: 70px;
+}
+
+#aboutus .img2 img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+#aboutus .img3 {
+    position: relative;
+    float: right;
+    right: 85px;
+    top: 20px;
+}
+
+#aboutus .img3 img {
+    width: 170px;
+    border-radius: 15px;
+}
+
+#aboutus .text1 {
+    position: absolute;
+    left: 150px;
+}
+
+#aboutus .text1 p1 {
+    color:#217BF4;
+}
+
+#aboutus .text1 .bg {
+    position: absolute;
+    top: 200px;
+}
+
+#aboutus .text1 .titik {
+    position: absolute;
+    left: 5px;
+    top: 205px;
+}
+
+#aboutus .text1 .gtitik {
+    position: absolute;
+    left: 25px;
+    top: 180px;
+}
+
+#aboutus .text1 .bg2 {
+    position: absolute;
+    top: 225px;
+}
+
+#aboutus .text1 .titik2 {
+    position: absolute;
+    left: 5px;
+    top: 230px;
+}
+
+#aboutus .text1 .gtitik2 {
+    position: absolute;
+    left: 25px;
+    top: 205px;
+}
+
+#aboutus .text1 .bg3 {
+    position: absolute;
+    top: 250px;
+}
+
+#aboutus .text1 .titik3 {
+    position: absolute;
+    left: 5px;
+    top: 255px;
+}
+
+#aboutus .text1 .gtitik3 {
+    position: absolute;
+    left: 25px;
+    top: 230px;
+}
+
+#achievement {
+    width: auto;
+    height: 600px;
+    position: relative;
+    top: 360px;
+    display: flex;
+}
+
+#achievement .kotak1 {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 200px;
+    left: 150px;
+    border-radius: 15px;
+    box-shadow: -5px 5px 5px #E5E5E5, 5px -5px 5px #E5E5E5;
+    padding: 10px;
+}
+
+#achievement .kotak1 .bintang {
+    position: relative;
+    display: flex;
+    left: 14px;
+}
+
+#achievement .kotak1 .bintang img {
+    width: 17px;
+    padding-right: 5px;
+}
+
+#achievement .kotak1 .people {
+    position: relative;
+    display: flex;
+    top: -15px;
+}
+
+#achievement .kotak1 .people p {
+    position: relative;
+    top: -2px;
+}
+
+#achievement .kotak1 img {
+    width: 70px;
+}
+
+#achievement .kotak1 .people .p1{
+    color: #217BF4;
+}
+
+#achievement .kotak1 .p2 {
+    position: relative;
+    width: 180px;
+    padding-left: 17px;
+    top: -25px;
+}
+
+#achievement .kotak1 .p2 p {
+    font-size: 12.5px;
+}
+
+#achievement .kotak1 .h6 {
+    position: relative;
+    display: flex;
+    top: -35px;
+    left: 14px;
+}
+
+#achievement .kotak1 .h6  h6 {
+    color: #217BF4;
+}
+
+#achievement .kotak1 .h6 img {
+    position: relative;
+    left: 5px;
+    top: 1px;
+    width: 10px;
+}
+
+#achievement .kotak2 {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 200px;
+    left: 295px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(176, 174, 174);
+}
+
+#achievement .kotak2 .piala {
+    position: relative;
+    display: flex;
+    left: 14px;
+}
+
+#achievement .kotak2 .piala img {
+    width: 20px;
+    padding-right: 5px;
+}
+
+#achievement .kotak2 .github {
+    position: relative;
+    display: flex;
+    padding-left: 10px;
+}
+
+#achievement .kotak2 .github img {
+    width: 30px;
+    height: 30px;
+}
+
+#achievement .kotak2 .github p {
+    position: relative;
+    font-size: 13px;
+    top: -8px;
+}
+
+#achievement .kotak2 .github p .taun {
+    color: #217BF4;
+}
+
+#achievement .kotak2 .text2 {
+    position: relative;
+    width: 180px;
+    padding-left: 17px;
+    top: -17px;
+}
+#achievement .kotak2 .text2 p {
+    font-size: 12.5px;
+}
+
+#achievement .kotak2 .go {
+    position: relative;
+    display: flex;
+    top: -30px;
+    padding-left: 17px;
+}
+
+#achievement .kotak2 .go h6 {
+    position: relative;
+    padding-right: 5px;
+}
+
+#achievement .kotak3 {
+    position: relative;
+    display: block;
+    width: 350px;
+    height: 200px;
+    float: right;
+    left: 420px;
+    padding: 10px;
+}
+
+#achievement .kotak3 .our {
+    position: relative;
+    top: -20px;
+    color: #217BF4;
+    height: auto;
+
+}
+
+#achievement .kotak3 .our h5 {
+    position: relative;
+    font-size: 15px;
+}
+
+#achievement .kotak3 .our2 {
+    position: relative;
+    width: 250px;
+    top: -30px;
+}
+
+#achievement .kotak3 .our2 h3 {
+    font-size: 25px;
+}
+
+#achievement .kotak3 .text3 {
+    position: relative;
+    width: 295px;
+    top: -38px;
+}
+
+#achievement .kotak3 .text3 p{
+    font-size: 15.5px;
+}
+
+#achievement .kotak3 .discoverme {
+    position: relative;
+    display: flex;
+    top: -40px;
+}
+
+#achievement .kotak3 .discoverme .me {
+    position: relative;
+    display: flex;
+    background-color: #a5c4ec;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: auto;
+    padding-right: auto;
+    color:#217BF4;
+}
+
+#achievement .kotak3 .discoverme .me button{
+    position: relative;
+    background-color: #a5c4ec;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color:#217BF4;
+}
+
+#achievement .kotak3 .discoverme .me img {
+    position: relative;
+    top: 1px;
+    width: 10px;
+}
+
+#achievement .kotak3 .discoverme .me .panahputih {
+    position: relative;
+    padding-left: 5px;
+    top: 3px;
+}
+
+
+#features {
+    width: auto;
+    height: 500px;
+    background-image: linear-gradient(white, rgb(190, 223, 235), white);
+}
+
+#features .text1 {
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 200px;
+}
+
+#features .text1 .h6 {
+    position: relative;
+}
+
+#features .text1 .h6 h6 {
+    font-size: 15px;
+    color: #217BF4;
+}
+
+#features .text1 .h3 {
+    position: relative;
+    top: -25px;
+}
+
+#features .text1 .h3 h3 {
+    font-size: 25px;
+}
+
+#features .text1 .test {
+    position: relative;
+    top: -35px;
+    font-size: 12px;
+}
+
+#features .text1 .test p {
+    text-align: center;
+}
+
+#features .kotak1 {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+#features .kotak1 .icon1 {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 90px;
+    left: 260px;
+    border-radius:14px;
+}
+
+#features .kotak1 .icon1 .satu {
+    position: relative;
+    top: -15px;
+}
+
+#features .kotak1 .icon1 .satu img {
+    position: relative;
+    width: 60px;
+    float: left;
+}
+
+#features .kotak1 .icon1 .satu h5 {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
+#features .kotak1 .icon1 .satu p {
+    position: relative;
+    width: 250px;
+    top: -10px;
+    font-size: 13px;
+}
+
+
+
+
+#features .kotak1 .icon2 {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 90px;
+    border-radius:14px;
+    left: 400px;
+}
+
+#features .kotak1 .icon2 .dua {
+    position: relative;
+    top: -15px;
+}
+
+#features .kotak1 .icon2 .dua img {
+    position: relative;
+    width: 60px;
+    float: left;
+}
+
+#features .kotak1 .icon2 .dua h5 {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
+#features .kotak1 .icon2 .dua p {
+    position: relative;
+    width: 250px;
+    top: -10px;
+    font-size: 13px;
+}
