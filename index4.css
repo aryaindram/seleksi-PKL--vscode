@@ -458,8 +458,9 @@ menu li:last-child {
 
 
 #features {
+    position: relative;
     width: auto;
-    height: 500px;
+    height: 650px;
     background-image: linear-gradient(white, rgb(190, 223, 235), white);
 }
 
@@ -498,40 +499,47 @@ menu li:last-child {
     text-align: center;
 }
 
-#features .kotak1 {
+#features .kotak {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: -70px;
+}
+
+#features .kotak .kotak1 {
     position: relative;
     display: flex;
     width: auto;
     height: auto;
 }
 
-#features .kotak1 .icon1 {
+#features .kotak .kotak1 .icon1 {
     position: relative;
     background-color: white;
     width: 300px;
     height: 90px;
-    left: 260px;
+    left: 310px;
     border-radius:14px;
 }
 
-#features .kotak1 .icon1 .satu {
+#features .kotak .kotak1 .icon1 .satu {
     position: relative;
     top: -15px;
 }
 
-#features .kotak1 .icon1 .satu img {
+#features .kotak .kotak1 .icon1 .satu img {
     position: relative;
     width: 60px;
     float: left;
 }
 
-#features .kotak1 .icon1 .satu h5 {
+#features .kotak .kotak1 .icon1 .satu h5 {
     position: relative;
     top: 10px;
     font-size: 14px;
 }
 
-#features .kotak1 .icon1 .satu p {
+#features  .kotak .kotak1 .icon1 .satu p {
     position: relative;
     width: 250px;
     top: -10px;
@@ -539,37 +547,188 @@ menu li:last-child {
 }
 
 
-
-
-#features .kotak1 .icon2 {
+#features .kotak .kotak1 .icon2 {
     position: relative;
     background-color: white;
     width: 300px;
     height: 90px;
     border-radius:14px;
-    left: 400px;
+    left: 350px;
 }
 
-#features .kotak1 .icon2 .dua {
+#features .kotak .kotak1 .icon2 .dua {
     position: relative;
     top: -15px;
 }
 
-#features .kotak1 .icon2 .dua img {
+#features .kotak .kotak1 .icon2 .dua img {
     position: relative;
     width: 60px;
     float: left;
 }
 
-#features .kotak1 .icon2 .dua h5 {
+#features .kotak .kotak1 .icon2 .dua h5 {
     position: relative;
     top: 10px;
     font-size: 14px;
 }
 
-#features .kotak1 .icon2 .dua p {
+#features .kotak .kotak1 .icon2 .dua p {
     position: relative;
     width: 250px;
+    top: -10px;
+    font-size: 13px;
+}
+
+
+#features .kotak .kotak2 {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    top: 50px;
+}
+
+#features .kotak .kotak2 .icon3 {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 90px;
+    border-radius:14px;
+    left: 310px;
+}
+
+#features .kotak .kotak2 .icon3 .satu {
+    position: relative;
+    top: -15px;
+}
+
+#features .kotak .kotak2 .icon3 .satu img {
+    position: relative;
+    width: 60px;
+    float: left;
+}
+
+#features .kotak .kotak2 .icon3 .satu h5 {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
+#features .kotak .kotak2 .icon3 .satu p {
+    position: relative;
+    width: 250px;
+    top: -10px;
+    font-size: 13px;
+}
+
+#features .kotak .kotak2 .icon4 {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 90px;
+    left: 350px;
+    border-radius:14px;
+}
+
+#features .kotak .kotak2 .icon4 .dua {
+    position: relative;
+    top: -15px;
+}
+
+#features .kotak .kotak2 .icon4 .dua img {
+    position: relative;
+    width: 60px;
+    height: 70px;
+    float: left;
+}
+
+#features .kotak .kotak2 .icon4 .dua h5 {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
+#features .kotak .kotak2 .icon4 .dua p {
+    position: relative;
+    width: 270px;
+    top: -10px;
+    font-size: 13px;
+}
+
+
+#features .kotak .kotak3 {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    top: 100px;
+}
+
+#features .kotak .kotak3 .icon5 {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 90px;
+    border-radius:14px;
+    left: 310px;
+}
+
+#features .kotak .kotak3 .icon5 .satu {
+    position: relative;
+    top: -15px;
+}
+
+#features .kotak .kotak3 .icon5 .satu img {
+    position: relative;
+    width: 60px;
+    height: 70px;
+    float: left;
+}
+
+#features .kotak .kotak3 .icon5 .satu h5 {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
+#features .kotak .kotak3 .icon5 .satu p {
+    position: relative;
+    width: 250px;
+    top: -10px;
+    font-size: 13px;
+}
+
+#features .kotak .kotak3 .icon6 {
+    position: relative;
+    background-color: white;
+    width: 300px;
+    height: 90px;
+    left: 350px;
+    border-radius:14px;
+}
+
+#features .kotak .kotak3 .icon6 .dua {
+    position: relative;
+    top: -15px;
+}
+
+#features .kotak .kotak3 .icon6 .dua img {
+    position: relative;
+    width: 60px;
+    height: 70px;
+    float: left;
+}
+
+#features .kotak .kotak3 .icon6 .dua h5 {
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
+#features .kotak .kotak3 .icon6 .dua p {
+    position: relative;
+    width: 270px;
     top: -10px;
     font-size: 13px;
 }
